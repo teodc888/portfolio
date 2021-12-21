@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
       content: "''",
       position: "absolute",
       height: "100%",
-      border: "1px solid tan",
+      border: "1px solid white",
       right: "40px",
       top: 0,
     },
@@ -34,7 +34,7 @@ const useStyles = makeStyles((theme) => ({
   },
   timeLineItem: {
     padding: "1rem",
-    borderBottom: "2px solid tan",
+    borderBottom: "2px solid white",
     position: "relative",
     margin: "1rem 3rem 1rem 1rem",
     clear: "both",
@@ -48,7 +48,7 @@ const useStyles = makeStyles((theme) => ({
       right: "-0.625rem",
       top: "calc(50% - 5px)",
       borderStyle: "solid",
-      borderColor: "tomato tomato transparent transparent",
+      borderColor: "#b388ff #b388ff transparent transparent",
       borderWidth: "0.625rem",
       transform: "rotate(45deg)",
     },
@@ -58,12 +58,12 @@ const useStyles = makeStyles((theme) => ({
       "&:nth-of-type(2n)": {
         float: "right",
         margin: "1rem",
-        borderColor: "tan",
+        borderColor: "white",
       },
       "&:nth-of-type(2n):before": {
         right: "auto",
         left: "-0.625rem",
-        borderColor: "transparent transparent tomato tomato",
+        borderColor: "transparent transparent #b388ff #b388ff",
       },
     },
   },
@@ -72,8 +72,8 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "9.375rem",
     margin: "0 3rem 0 auto",
     fontSize: "1.8rem",
-    color: "#fff",
-    background: "tomato",
+    color: "white",
+    background: "#009688",
     lineHeight: 1,
     padding: "0.5rem 1rem",
     "&:before": {
@@ -92,20 +92,20 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "tomato",
+    color: "#b388ff",
     padding: "3rem 0",
     textTransform: "uppercase",
   },
   subHeading: {
-    color: "#fff",
+    color: "#b388ff",
     padding: 0,
     textTransform: "uppercase",
   },
   body1: {
-    color: "tomato",
+    color: "#009688",
   },
   subtitle1: {
-    color: "tan",
+    color: "white",
   },
 }));
 
@@ -114,14 +114,14 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        Experiencia Laboral
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,27 +129,35 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Full-stack Developer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Henry
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            EXPERIENCIA ACADÉMICA BOOTCAMP HENRY Desarrollo de una SPA (Single
+            Page Application) sobre Paises . Para el Front-End se utilizó React
+            y Redux como State Management. Todos los componentes tuvieron
+            estilos con CSS puro, sin el uso de librerías externas o frameworks.
+            La SPA consume datos de una API (restcountries) a través de una
+            Back-End desarrollado con Node JS utilizando Express, agregando
+            nuevas funcionalidades a la API original y almacenando toda la
+            informacion necesaria en nuestra Base De Datos (PostgreSQL). Algunos
+            features del proyecto: Cache de búsquedas, ordenamientos y filtros,
+            formulario controlado para la creación de actividades, que luego se
+            almacenan en una base de datos. Para la misma, se utilizó Sequelize
+            y PostgreSQL.
           </Typography>
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2021
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -157,78 +165,24 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Desarrollador de front-end Proyecto Grupal
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Henry
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            - Desarrollo de un Proyecto Grupal de 3 semanas necesario para la
+            aprobación del curso - Temática: ecommerce de venta de zapatillas
+            ADIDAS. - Para el mismo se utilizo la metodologia SCRUM y
+            tecnologías como: React, Redux, Material UI, Sequelize, Express,
+            Checkout Pro Mercado pago, auth0 Sengrid.Sengrid.
           </Typography>
         </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2015
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Fullstack Javascript
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2017
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-            Django & React
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
-          </Typography>
-          <Typography
-            variant="subtitle1"
-            align="center"
-            className={classes.subtitle1}
-          >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
-          </Typography>
-        </Box>
+       
       </Box>
     </Box>
   );

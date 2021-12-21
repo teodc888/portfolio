@@ -22,7 +22,7 @@ export default function Portfolio() {
     {
       id: 2,
       nombre: "SPA Countries",
-      descripcion: "SPA con la temática de Countries",
+      descripcion: "Con esta App podrás buscar cualquier PAIS del mundo, ver su informacion mas importante y agregarle actividades a cada uno de ellos!!!",
       imagen:
         "https://user-images.githubusercontent.com/29457718/141840473-8439d751-d03a-40f1-b391-726102ba1609.png",
       url: "",
@@ -31,7 +31,7 @@ export default function Portfolio() {
     {
       id: 3,
       nombre: "APP CLIMA",
-      descripcion: "App de clima",
+      descripcion: "Con esta App podrás informate sobre la temperatura que hace en cualquier parte del mundo y su extendido en 5 dias y 8 horas diarias",
       imagen:
         "https://user-images.githubusercontent.com/29457718/146102186-e3ba5915-976b-44b2-8ec6-04c9aada9d15.png",
       url: "https://clima-six.vercel.app/",
@@ -40,7 +40,7 @@ export default function Portfolio() {
     {
       id: 4,
       nombre: "APP PELICULAS",
-      descripcion: "App de peliculas",
+      descripcion: "Con esta App podrás buscar la Peliculas/Serie/Programa de TV que quieras, saber su informacion y guardar las favoritas !!!",
       imagen:
         "https://user-images.githubusercontent.com/29457718/146437972-3d0c5883-443e-4b9a-b5cc-a577ab3f8019.png",
       url: "https://peliculas-app.vercel.app/",

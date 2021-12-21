@@ -41,3 +41,9 @@
 
   border-radius: 50%;
 }
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
