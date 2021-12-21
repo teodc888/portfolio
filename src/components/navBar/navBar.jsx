@@ -17,7 +17,7 @@ import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
 import ContactMail from "@material-ui/icons/ContactMail";
 import { makeStyles } from "@material-ui/core/styles";
-import MenuIcon from '@mui/icons-material/Menu';
+import MenuIcon from "@mui/icons-material/Menu";
 import Footer from "../footer/footer";
 import Img from "../../img/yo.jpeg";
 
@@ -33,7 +33,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#b388ff",
   },
   menuSliderContainer: {
-    width: 250,
+    width: 312,
     background: "#212121",
     height: "100%",
   },
@@ -50,9 +50,9 @@ const useStyles = makeStyles((theme) => ({
 
 const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
-  { listIcon: <AssignmentInd />, listText: "Resume", listPath: "/resume" },
+  { listIcon: <AssignmentInd />, listText: "Experiencia", listPath: "/resume" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  { listIcon: <ContactMail />, listText: "Contact", listPath: "/contact" },
+  { listIcon: <ContactMail />, listText: "Contactar", listPath: "/contact" },
 ];
 
 const Navbar = () => {
@@ -92,9 +92,11 @@ const Navbar = () => {
             <IconButton onClick={() => setOpen(true)}>
               <MenuIcon className={classes.arrow} />
             </IconButton>
-            <Typography variant="h5" className={classes.title}>
-              PORTFOLIO
-            </Typography>
+            <Link to="/">
+              <Typography variant="h5" className={classes.title}>
+                PORTFOLIO
+              </Typography>
+            </Link>
           </Toolbar>
         </AppBar>
       </Box>

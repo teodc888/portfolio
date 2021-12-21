@@ -26,9 +26,9 @@ const Footer = () => {
 
   return (
     <BottomNavigation className={classes.bottomNavContainer}>
-      <BottomNavigationAction icon={<LinkedInIcon />} className={classes.root} />
-      <BottomNavigationAction icon={<GitHubIcon />} className={classes.root} />
-      <BottomNavigationAction icon={<Instagram />} className={classes.root} />
+      <BottomNavigationAction icon={<LinkedInIcon />} href="https://www.linkedin.com/in/mateo-dellacqua-castro/" className={classes.root} />
+      <BottomNavigationAction icon={<GitHubIcon />} href="https://github.com/teodc888" className={classes.root} />
+      <BottomNavigationAction icon={<Instagram />} href="https://www.instagram.com/teodellacqua/" className={classes.root} />
     </BottomNavigation>
   );
 };
