@@ -139,18 +139,18 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            EXPERIENCIA ACADÉMICA BOOTCAMP HENRY Desarrollo de una SPA (Single
-            Page Application) sobre Paises . Para el Front-End se utilizó React
-            y Redux como State Management. Todos los componentes tuvieron
-            estilos con CSS puro, sin el uso de librerías externas o frameworks.
+            <p>EXPERIENCIA ACADÉMICA BOOTCAMP HENRY Desarrollo de una SPA (Single
+            Page Application) sobre Paises</p> <p>.Para el Front-End se utilizó React
+            y Redux como State Management </p> <p>. Todos los componentes tuvieron
+            estilos con CSS puro, sin el uso de librerías externas o frameworks </p> <p>.
             La SPA consume datos de una API (restcountries) a través de una
             Back-End desarrollado con Node JS utilizando Express, agregando
             nuevas funcionalidades a la API original y almacenando toda la
-            informacion necesaria en nuestra Base De Datos (PostgreSQL). Algunos
+            informacion necesaria en nuestra Base De Datos (PostgreSQL) </p> <p>.  Algunos
             features del proyecto: Cache de búsquedas, ordenamientos y filtros,
             formulario controlado para la creación de actividades, que luego se
-            almacenan en una base de datos. Para la misma, se utilizó Sequelize
-            y PostgreSQL.
+            almacenan en una base de datos </p> <p>. Para la misma, se utilizó Sequelize
+            y PostgreSQL. </p>
           </Typography>
         </Box>
         <Typography
@@ -175,11 +175,11 @@ const Resume = () => {
             align="center"
             className={classes.subtitle1}
           >
-            - Desarrollo de un Proyecto Grupal de 3 semanas necesario para la
-            aprobación del curso - Temática: ecommerce de venta de zapatillas
-            ADIDAS. - Para el mismo se utilizo la metodologia SCRUM y
+            <p>- Desarrollo de un Proyecto Grupal de 3 semanas necesario para la
+            aprobación del curso </p> <p> - Temática: ecommerce de venta de zapatillas
+            ADIDAS.</p> <p> - Para el mismo se utilizo la metodologia SCRUM y
             tecnologías como: React, Redux, Material UI, Sequelize, Express,
-            Checkout Pro Mercado pago, auth0 Sengrid.Sengrid.
+            Checkout Pro Mercado pago, auth0 Sengrid.Sengrid. </p>
           </Typography>
         </Box>
        
