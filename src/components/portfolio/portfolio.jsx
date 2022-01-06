@@ -25,7 +25,7 @@ export default function Portfolio() {
       descripcion: "Con esta App podrás buscar cualquier PAIS del mundo, ver su informacion mas importante y agregarle actividades a cada uno de ellos!!!",
       imagen:
         "https://user-images.githubusercontent.com/29457718/141840473-8439d751-d03a-40f1-b391-726102ba1609.png",
-      url: "https://country-app-front.vercel.app/home",
+      url: "https://country-app-front.vercel.app/",
       github: "https://github.com/teodc888/COUNTRIES_APP"
     },
     {
