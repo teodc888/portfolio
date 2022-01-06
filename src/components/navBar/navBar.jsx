@@ -52,7 +52,7 @@ const menuItems = [
   { listIcon: <Home />, listText: "Home", listPath: "/" },
   { listIcon: <AssignmentInd />, listText: "Experiencia", listPath: "/resume" },
   { listIcon: <Apps />, listText: "Portfolio", listPath: "/portfolio" },
-  { listIcon: <ContactMail />, listText: "Contactar", listPath: "/contact" },
+  // { listIcon: <ContactMail />, listText: "Contactar", listPath: "/contact" },
 ];
 
 const Navbar = () => {
