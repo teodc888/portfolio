@@ -46,6 +46,15 @@ export default function Portfolio() {
       url: "https://peliculas-app.vercel.app/",
       github: "https://github.com/teodc888/Peliculas-App"
     },
+    {
+      id: 5,
+      nombre: "APP CRIPTOMONEDAS",
+      descripcion: "Con esta App podrás informarte de todas las criptomonedas que existen en el mundo y saber su informacion !!!",
+      imagen:
+        "https://user-images.githubusercontent.com/29457718/151019969-2801bc1c-5167-42c5-a90e-ddee05b00a23.png",
+      url: "https://criptos-ten.vercel.app/",
+      github: "https://github.com/teodc888/Criptos"
+    },
   ];
   return (
     <>
