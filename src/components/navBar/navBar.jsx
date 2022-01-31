@@ -15,7 +15,6 @@ import Typography from "@material-ui/core/Typography";
 import AssignmentInd from "@material-ui/icons/AssignmentInd";
 import Home from "@material-ui/icons/Home";
 import Apps from "@material-ui/icons/Apps";
-import ContactMail from "@material-ui/icons/ContactMail";
 import { makeStyles } from "@material-ui/core/styles";
 import MenuIcon from "@mui/icons-material/Menu";
 import Footer from "../footer/footer";

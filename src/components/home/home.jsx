@@ -32,7 +32,7 @@ export default function Home() {
             loop
           />
         </Typography>
-        <img src={Img} className="imagen" width="350" height="350" />
+        <img src={Img} className="imagen" width="350" height="350" alt="l" />
       </Stack>
     </div>
   );
