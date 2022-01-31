@@ -49,7 +49,7 @@ export default function Portfolio() {
                     <Link href={proyecto.github}>
                     <Button size="small">GitHub</Button>
                     </Link>
-                    <Link href={proyecto.url}>
+                    <Link href={proyecto.link}>
                     <Button size="small">Ver</Button>
                     </Link>
                   </CardActions>
