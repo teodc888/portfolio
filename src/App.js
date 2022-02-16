@@ -7,7 +7,7 @@ import Resume from "./components/resumen/resumen";
 import Contact from "./components/contac/contac";
 function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} /> 

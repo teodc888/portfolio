@@ -11,17 +11,32 @@ import Box from '@mui/material/Box';
 import { Link } from "@mui/material";
 export default function Portfolio() {
   const [proyectos, setProyectos] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     axios.get("https://push-porfolio.herokuapp.com/portfolio").then((res) => {
       console.log(res.data);
       setProyectos(res.data);
+      setTimeout(() => {
+        setLoading(true);
+      }, 2000);
     });
   }, []);
 
+
+
+  console.log(loading);
+
+
   return (
     <>
-      <Box sx={{ width: "100%", marginTop: "50px" }}>
+    {
+      !loading ? (
+        <div>
+          <img src="https://media0.giphy.com/media/KKCuBooszlPG0/giphy.gif?cid=ecf05e47uzevurhfwl78zebim6eza58nh9bskq20tl2tldm6&rid=giphy.gif&ct=s" alt="loading" width="300" height="300"/>
+        </div>
+      ) : (
+        <Box sx={{ width: "100%", marginTop: "50px" }}>
         <Grid
           container
           spacing={{ xs: 4, md: 3 }}
@@ -29,8 +44,8 @@ export default function Portfolio() {
         >
           {proyectos.map((proyecto) => {
             return (
-              <Grid item xs={4} sm={4} md={4} key={proyecto.id}>
-                <Card sx={{ maxWidth: 545 }}>
+              <Grid item xs={4} sm={4} md={4} key={proyecto.id} >
+                <Card sx={{ maxWidth: 545,  margin:"auto" }}>
                   <CardMedia
                     component="img"
                     height="300"
@@ -59,6 +74,11 @@ export default function Portfolio() {
           })}
         </Grid>
       </Box>
+      )
+
+
+    }
+    
     </>
   );
 }
